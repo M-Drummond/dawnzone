@@ -1,0 +1,52 @@
+<section id="arbitrary" class="tw-min-h-[500px] tw-bg-gray-100 tw-text-black tw-p-8 tw-text-center tw-flex tw-flex-col tw-items-center tw-justify-center" >
+
+  <div class="tw-max-w-screen-xl tw-mx-auto">
+
+    <h2 class="tw-uppercase tw-text-md tw-mb-4 tw-text-black">
+      {{ section.settings.subheading }}
+    </h2>
+
+    <h1 class="tw-text-5xl tw-mb-4 tw-text-black">
+        {{ section.settings.text }}
+    </h1>
+
+    <p>
+      {{ section.settings.desc }}
+    </p>
+
+  </div>
+
+</section>
+
+
+{% schema %}
+{
+  "name": "arbitrary",
+  "class": "spaced-section spaced-section--full-width",
+  "settings": [
+    {
+      "type": "text",
+      "id": "text",
+      "default": "Give customers details about on the template.",
+      "label": "t:sections.image-banner.blocks.text.settings.text.label"
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "default": "Subheading",
+      "label": "Subheading"
+    },
+    {
+      "type": "text",
+      "id": "desc",
+      "default": "Description",
+      "label": "Description"
+    }
+  ],
+  "presets": [
+      {
+        "name": "arbitrary"
+      }
+  ]
+}
+{% endschema %}
