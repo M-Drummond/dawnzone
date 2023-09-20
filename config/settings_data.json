@@ -1,5 +1,6 @@
 {
   "current": {
+    "colors_background_1": "#debfac",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
