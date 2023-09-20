@@ -1,6 +1,7 @@
 {
   "current": {
     "colors_background_1": "#debfac",
+    "type_header_font": "mono",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
